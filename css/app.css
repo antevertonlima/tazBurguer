@@ -1,0 +1,63 @@
+@font-face {
+	font-family: 'Conv_Cartoon_Regular';
+	src: url('fonts/Cartoon_Regular.eot');
+	src: local('☺'), url('fonts/Cartoon_Regular.woff') format('woff'), url('fonts/Cartoon_Regular.ttf') format('truetype'), url('fonts/Cartoon_Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{background: #8b080e url(../img/bgAll.jpg) repeat-x top left;}
+.footer{height: 80px; background: url(../img/bgFooter.jpg) repeat-x top left;}
+header{height: 360px; margin: 0 auto;}
+#tazTopo{width:380px; height:355px; background: url(../img/tazTopo.png) no-repeat; margin:0 auto; margin-top: 7px;}
+#logo{width:871px; height:276px; margin: 7px 0 3px 0;}
+.menu{font-family:'Conv_Cartoon_Regular',Sans-Serif;}
+
+.content{height: 400px; margin: 10px 0;}
+
+.btn-taz {
+  color: #5f060a;
+  text-transform: uppercase;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #e4b730;
+  *background-color: #cd9a02;
+  background-image: -moz-linear-gradient(top, #e4b730, #cd9a02);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e4b730), to(#cd9a02));
+  background-image: -webkit-linear-gradient(top, #e4b730, #cd9a02);
+  background-image: -o-linear-gradient(top, #e4b730, #cd9a02);
+  background-image: linear-gradient(to bottom, #e4b730, #cd9a02);
+  background-repeat: repeat-x;
+  border-color: #e4b730 #cd9a02 #002a80;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe4b730', endColorstr='#ffcd9a02', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-taz:hover,
+.btn-taz:focus,
+.btn-taz:active,
+.btn-taz.active,
+.btn-taz.disabled,
+.btn-taz[disabled] {
+  color: #1f2c0e;
+  background-color: #cd9a02;
+  *background-color: #ba8c03;
+}
+
+.btn-taz:active,
+.btn-taz.active {
+  background-color: #ba8c03 \9;
+}
+
+.btn-large-taz {
+  padding: 16px 20px;
+  font-size: 38px;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+
+.btn-large-taz [class^="icon-"],
+.btn-large-taz [class*=" icon-"] {
+  margin-top: 4px;
+}
