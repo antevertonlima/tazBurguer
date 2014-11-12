@@ -111,9 +111,11 @@ header {
 	font-family: 'Conv_Cartoon_Regular', Sans-Serif;
 	font-size: 18px;
 	margin-top: 10px;
+	color: black;
 }
 
 .fb-like-box{
 	background-color: white;
 	border-radius: 10px 20px;
+	
 }
