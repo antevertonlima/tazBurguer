@@ -40,6 +40,10 @@ header {
 .menu {
     font-family: 'Conv_Cartoon_Regular', Sans-Serif;
 }
+.btn-taz-cardapio {
+    font-family: 'Conv_Cartoon_Regular', Sans-Serif;
+    margin-top: 8%;
+}
 
 .content {
     min-height: 500px;
