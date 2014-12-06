@@ -50,18 +50,6 @@ header {
     margin: 10px 0;
 }
 
-
-.twitter-timeline{
-    height:  350px;
-    border-radius: 8px;
-    margin: 2px 0;
-}
-
-#twitter-widget-0{
-    width: 13.8rem !important;
-    max-width: 13.8rem !important;
-}
-
 .btn-taz {
     color: #5f060a;
     text-transform: uppercase;
@@ -128,14 +116,7 @@ header {
     margin-right: 5px;
 
 }
-.twitter{
-    background: url('../img/twitter.png') no-repeat;
-    float: left;
-    width: 32px;
-    height: 32px;
-    display: block;
-    margin-top: 10px;
-}
+
 .loja{
     font-family: 'Conv_Cartoon_Regular', Sans-Serif;
     font-size: 18px;
@@ -153,8 +134,6 @@ header {
 .fb-like-box{
     background-color: white;
     border-radius: 8px;
-    width: 13.8rem !important;
-    max-width: 13.8rem !important;
 }
 .pluginBoxDivider{
      width: 13.8rem !important;
