@@ -114,7 +114,6 @@ header {
     display: block;
     margin-top: 10px;
     margin-right: 5px;
-
 }
 
 .loja{
@@ -133,9 +132,53 @@ header {
 
 .fb-like-box{
     background-color: white;
-    border-radius: 8px;
+    border-radius: 5px;
 }
 .pluginBoxDivider{
      width: 13.8rem !important;
     max-width: 13.8rem !important;
+}
+
+.modal {
+  position: fixed;
+  top:10px;
+  left: 33%;
+  z-index: 1050;
+  width: 1024px;
+  background-color: #e4b730;
+  border: 1px solid #1f2c0e;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  *border: 1px solid #1f2c0e;
+  /* IE6-7 */
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+  outline: none;
+}
+.modal-header {
+  padding: 9px 15px;
+  border-bottom: 2px solid #1f2c0e;
+}
+.modal-body {
+  position: relative;
+  overflow-y: auto;
+  max-height: 600px;
+  padding: 15px;
+}
+
+html, body, #map-canvas  {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#map-canvas {
+  width:500px;
+  height:480px;
 }

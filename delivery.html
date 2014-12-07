@@ -114,9 +114,8 @@
                             </div>
 
                             <div class="span4">
-                                <a href="cardapio.html" target="_blank" class="btn btn-taz btn-large-taz btn-taz-cardapio" title="Cardápio">Cardápio</a>
+                              <a href="#cardapioG"  role="button" data-toggle="modal" data-target="#cardapioG" class="btn btn-taz btn-large-taz btn-taz-cardapio" title="Cardápio">Cardápio</a>
                             </div>
-
                         </div>
 
                     </div>
@@ -159,6 +158,17 @@
                 <!-- ======================= Fim Informacoes das Lojas ============================== -->
             </div>
         </div><!--=============== Fim Rodape Site ===================== -->
+        <div id="cardapioG" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+                <h3 id="myModalLabel">Cardapio Cidadedos Funcionarios</h3>
+            </div>
+            <div class="modal-body">
+                <iframe id="frame-principal" name="frame-principal" src="CardapioCidadedosFuncionarios/index.html" width="100%" height="500" frameborder="0" scrolling="auto"></iframe>
+            </div>
+        </div>
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="js/bootstrap-modal.js"></script>
     </body>
     <!--=============== Script Facebook ===================== -->
     <script>(function(d, s, id) {

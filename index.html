@@ -17,6 +17,10 @@
         <link href="css/bootstrap.min.css" rel="stylesheet"  media="screen">
         <link href="css/bootstrap-responsive.min.css"  rel="stylesheet" media="screen">
         <link href="css/app.css"  rel="stylesheet" 	media="screen">
+        <link rel="stylesheet" type="text/css" href="slide/engine1/style.css" />
+        <script type="text/javascript" src="slide/engine1/jquery.js"></script>
+        <script src="https://www.youtube.com/iframe_api"></script>
+        <script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
     </head>
 
     <body>
@@ -35,8 +39,7 @@
                     </div>
                     <div class="menu">
                         <a href="index.html" class="btn btn-taz btn-large-taz active" title="Início">Início</a>
-                        <a href="delivery.html" class="btn btn-taz btn-large-taz"  title="Delivery">Delivery</a>
-                        <a href="cardapio.html" class="btn btn-taz btn-large-taz"  title="Cardápio">Cardápio</a>
+                        <a href="delivery.html" class="btn btn-taz btn-large-taz"  title="Delivery">Delivery / Cardápio</a>
                         <a href="comoChegar.html" class="btn btn-taz btn-large-taz"  title="Como Chegar">Como Chegar</a>
                     </div>
                 </div>
@@ -51,32 +54,43 @@
                              data-href="https://www.facebook.com/pages/Taz-Burguer-Sandu%C3%ADches-e-Sucos/1520272128229610"
                              data-colorscheme="light" data-show-faces="true" data-header="false"
                              data-stream="false" data-show-border="false" data-width="220" data-height="300">
-                              
+
                         </div>
                         <div class="clearfix"></div>
                         <img alt="Gif taz rodando" src="img/tazRodando.gif">
                         <!-- ======================= Fim Integracao Facebook ============================== -->
                     </div>
                     <div class="span10">
-                        <div id="myCarousel" class="carousel slide span12 well-middle">
-                            <!-- Itens de carousel -->
-                            <div class="carousel-inner">
-                                <div class="item"><img src="img/slide/01.jpg" alt=""></div>
-                                <div class="item"><img src="img/slide/02.jpg" alt=""></div>
-                                <div class="item"><img src="img/slide/03.jpg" alt=""></div>
-                                <div class="item"><img src="img/slide/04.jpg" alt=""></div>
-                                <div class="item"><img src="img/slide/05.jpg" alt=""></div>
-                                <div class="item"><img src="img/slide/06.jpg" alt=""></div>
-                                <div class="item"><img src="img/slide/07.jpg" alt=""></div>
-                                <div class="item"><img src="img/slide/08.jpg" alt=""></div>
+                        <!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+                        <div id="wowslider-container1" class="well-middle">
+                            <div class="ws_images">
+                                <ul>
+                                    <li><img src="img/slide/PRENSADAO.jpg" alt="PRENSADAO" title="" id="wows1_0"/></li>
+                                    <li><img src="img/slide/SOBREMESAS1.jpg" alt="SOBREMESAS" title="" id="wows1_1"/></li>
+                                    <li>
+                                        <img src="img/slide/receita-sucos-energeticos.jpg" alt="receita-sucos-energeticos" title="" id="wows1_2" />
+                                    </li>
+                                    <li><img src="img/slide/sucos-diversos.jpg" alt="Imagem 04" title="" id="wows1_3"/></li>
+                                    <li><img src="img/slide/vitaminas.jpg" alt="Imagem 04" title="" id="wows1_4"/></li>
+                                    <li><iframe width="100%" height="100%" src="https://www.youtube.com/embed/Auk6lorZIIk?autoplay=0&rel=0&enablejsapi=1&playerapiid=ytplayer&wmode=transparent" frameborder="0" allowfullscreen></iframe><img src="slide/data1/images/auk6lorziik.png" alt="TARIFA" title="TARIFA" id="wows1_5"/></li>
+                                    <li><iframe width="100%" height="100%" src="https://player.vimeo.com/video/113439313?autoplay=0&title=0&byline=0&badge=0&portrait=0&api=1&player_id=ws_vimeo_113439313" frameborder="0" id="ws_vimeo_113439313" allowfullscreen></iframe><img src="slide/data1/images/113439313.png" alt="full screen slider" title="Jackie Chan - How to Do Action Comedy" id="wows1_6"/></li>
+                                </ul>
                             </div>
-                            <!-- Navegador do carousel -->
-                            <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-                            <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+                            <div class="ws_bullets">
+                                <div>
+                                    <a href="#" title="Imagem 01"><img src="img/slide/tooltips/img_0002.jpg" alt="IMG_0002"/>1</a>
+                                    <a href="#" title="Imagem 02"><img src="img/slide/tooltips/img_0003.jpg" alt="IMG_0003"/>2</a>
+                                    <a href="#" title="Imagem 03"><img src="img/slide/tooltips/img_0005.jpg" alt="IMG_0005"/>3</a>
+                                    <a href="#" title="Imagem 04"><img src="img/slide/tooltips/img_0027.jpg" alt="IMG_0027"/>4</a>
+                                    <a href="#" title="TARIFA"><img src="slide/data1/tooltips/auk6lorziik.png" alt="TARIFA"/>5</a>
+                                    <a href="#" title="Jackie Chan - How to Do Action Comedy"><img src="slide/data1/tooltips/113439313.png" alt="Jackie Chan - How to Do Action Comedy"/>6</a>
+                                </div>
+                            </div>
+                            <div class="ws_shadow"></div>
                         </div>
                     </div>
                 </div>
-               
+
             </div>
             <!-- ======================= FIm Conteudo ============================== -->
         </div>
@@ -84,71 +98,135 @@
         <div class="container-fluid footer">
             <div class="row-fluid">
                 <!-- ======================= Logo Rede SOcial ============================== -->
-                <div class="span2">
+                <div class="span1">
                     <a href="https://www.facebook.com/pages/Taz-Burguer-Sandu%C3%ADches-e-Sucos/1520272128229610"  target="_blank">
                         <span class="face"></span>
                     </a> 
                 </div>
                 <!-- ======================= Logo Rede SOcial ============================== -->
                 <!-- ======================= Informacoes das Lojas ============================== -->
-                <div class="span3 loja">
-                    <p>
-                        <b>São Cristovão</b> <br />
-                        (85) 3269.3529<br />
-                        Av. Castelo de Castro 330<br />
-                        <a href="https://www.google.com.br/maps/place/Av.+Castelo+de+Castro,+330+-+Jangurussu,+Fortaleza+-+CE,+60866-681/@-3.8319006,-38.5215419,18z/data=!3m1!4b1!4m2!3m1!1s0x7c74fd60148c2a3:0xe384cbec7b35d00f" target="_blank" class="comoChegar">Como chegar</a>
-                    </p>
-                </div>
-                <div class="span3 loja">
-                    <p>
-                        <b>José Walter</b> <br /> 
-                        (85) 3291.2074 <br /> 
-                        Av. João Araújo Lima 571<br />
-                        <a href="https://www.google.com.br/maps/place/Avenida+Joao+de+Araujo+Lima,+571/@-3.826064,-38.5600882,18z/data=!4m2!3m1!1s0x7c74e0350177a81:0x2c997a0f15ca8f" target="_blank" class="comoChegar">Como chegar</a>
-                    </p>
-                </div>
-                <div class="span3 loja">
-                    <p>
-                        <b>Cidade dos Funcionários</b><br /> 
-                        (85) 3275.7058 <br /> 
-                        Av. Desembargador Gonzaga 774<br />
-                        <a href="https://www.google.com.br/maps/place/Av.+Desembargador+Gonzaga,+774+-+Cidade+dos+Funcion%C3%A1rios,+Fortaleza+-+CE/@-3.7942865,-38.50133,17z/data=!3m1!4b1!4m2!3m1!1s0x7c74f722e516c17:0x41b6fb182b53bc2e" target="_blank" class="comoChegar">Como chegar</a>
-                    </p>
+                <div class="span11">
+                    <div class="row-fluid">
+                        <div class="span12">
+                            <span class="btn btn-taz btn-block disabled">Nossas Lojas</span>
+                        </div>
+                        <div class="row-fluid">
+                            <div class="span4 loja">
+                                <p>
+                                    <b>São Cristovão</b> <br />
+                                    (85) 3269.3529<br />
+                                    Av. Castelo de Castro 330<br />
+                                    <a href="#myModal" role="button" class="btn btn-taz btn-block" data-toggle="modal" data-target="#myModal">Como chegar</a>
+                                </p>
+                            </div>
+                            <div class="span4 loja">
+                                <p>
+                                    <b>José Walter</b> <br /> 
+                                    (85) 3291.2074 <br /> 
+                                    Av. João Araújo Lima 571<br />
+                                    <a href="#myModal" role="button" class="btn btn-taz btn-block" data-toggle="modal" data-target="#myModal">Como chegar</a>
+                                </p>
+                            </div>
+                            <div class="span4 loja">
+                                <p>
+                                    <b>Cidade dos Funcionários</b><br /> 
+                                    (85) 3275.7058 <br /> 
+                                    Av. Desembargador Gonzaga 774<br />
+                                    <a href="#myMapModal" role="button" class="btn btn-taz btn-block" data-toggle="modal" data-target="#myMapModal">Como chegar</a>
+                                </p>
+                            </div>
+                        </div>                        
+                    </div>
                 </div>
                 <!-- ======================= Fim Informacoes das Lojas ============================== -->
             </div>
         </div>
         <!-- ======================= Fim Rodape ============================== -->
         <!-- ======================= JS Facebook ============================== -->
+        <div class="modal fade" id="myMapModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                 <h4 class="modal-title">Modal title</h4>
+
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div id="map-canvas" class=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
         <script src="http://code.jquery.com/jquery-latest.js"></script>
-        <script src="js/bootstrap-carousel.js"></script>
-    <script>
-         jQuery(function($) {
-            $('.carousel').carousel({
-                interval: 5000
-            });
-        });
-        //facebook
-        (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id))
-                return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&appId=482790148437990&version=v2.0";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-        //twittet
-        !function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
-            if (!d.getElementById(id)) {
+        <script type="text/javascript" src="slide/engine1/wowslider.js"></script>
+        <script type="text/javascript" src="slide/engine1/script.js"></script>
+        <script src="js/bootstrap-modal.js"></script>
+        <script src="js/bootstrap-pager.js"></script>
+        <script>
+            //facebook
+            (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id))
+                    return;
                 js = d.createElement(s);
                 js.id = id;
-                js.src = p + "://platform.twitter.com/widgets.js";
+                js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&appId=482790148437990&version=v2.0";
                 fjs.parentNode.insertBefore(js, fjs);
-            }
-        }(document, "script", "twitter-wjs");
-    </script>
+            }(document, 'script', 'facebook-jssdk'));
+            
+            var map;        
+            var myCenter=new google.maps.LatLng(53, -1.33);
+var marker=new google.maps.Marker({
+    position:myCenter
+});
+
+function initialize() {
+  var mapProp = {
+      center:myCenter,
+      zoom: 14,
+      draggable: false,
+      scrollwheel: false,
+      mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  
+  map=new google.maps.Map(document.getElementById("map-canvas"),mapProp);
+  marker.setMap(map);
+    
+  google.maps.event.addListener(marker, 'click', function() {
+      
+    infowindow.setContent(contentString);
+    infowindow.open(map, marker);
+    
+  }); 
+};
+google.maps.event.addDomListener(window, 'load', initialize);
+
+google.maps.event.addDomListener(window, "resize", resizingMap());
+
+$('#myMapModal').on('show.bs.modal', function() {
+   //Must wait until the render of the modal appear, thats why we use the resizeMap and NOT resizingMap!! ;-)
+   resizeMap();
+})
+
+function resizeMap() {
+   if(typeof map =="undefined") return;
+   setTimeout( function(){resizingMap();} , 400);
+}
+
+function resizingMap() {
+   if(typeof map =="undefined") return;
+   var center = map.getCenter();
+   google.maps.event.trigger(map, "resize");
+   map.setCenter(center); 
+}
+        </script>
     </body>    
     <!-- ======================= JS Facebook ============================== -->
 </html>
