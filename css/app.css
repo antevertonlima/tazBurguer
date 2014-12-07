@@ -171,3 +171,7 @@ header {
   max-height: 600px;
   padding: 15px;
 }
+
+#mapSC, #mapJW,#mapCF{
+    z-index: -9999;
+}
